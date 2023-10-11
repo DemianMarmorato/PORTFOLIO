@@ -1,0 +1,74 @@
+@import url("https://fonts.google.com/specimen/Dela+Gothic+One/tester");
+
+.logoContainer {
+	display: flex;
+	justify-content: start;
+}
+
+.logoDem {
+	display: flex;
+	justify-content: start;
+	position: relative;
+	width: auto;
+	height: 200px;
+	right: 10px;
+	bottom: 4cm;
+	padding: -1px;
+	margin: 0px;
+}
+
+.greetings {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	bottom: 70px;
+	color: #28344c;
+	font-family: "Dela Gothic One";
+	font-style: italic;
+	font-size: 50px;
+}
+.nameSpan {
+	position: relative;
+	left: 15px;
+	color: #89db82;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.profilePic {
+	width: auto;
+	height: 350px;
+	position: relative;
+	transition: transform 0.3s;
+}
+
+.profilePic:hover {
+	transform: scale(1.1);
+}
+
+.imgContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.desc {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+	color: #28344c;
+	font-family: "Dela Gothic One";
+	font-style: italic;
+	font-size: 17px;
+}
+
+.descSpan {
+	margin-right: 2px;
+	margin-left: 4px;
+	color: #89db82;
+	font-style: normal;
+	text-decoration: underline;
+}

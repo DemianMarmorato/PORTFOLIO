@@ -1,0 +1,26 @@
+@import url("https://fonts.google.com/specimen/Dela+Gothic+One/tester");
+
+.body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.abmeTitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Dela Gothic One";
+	font-size: 40px;
+	color: #28344c;
+	text-decoration: solid;
+	font-style: italic;
+}
+
+.abmetextSpan {
+	color: #89db82;
+	margin-left: 7px;
+	text-decoration: underline;
+	font-style: normal;
+}

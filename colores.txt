@@ -1,0 +1,21 @@
+color del logo : #E6E6E6 => debe ir acorde al navbar.
+
+
+import abmePhoto from "../images/abmePhoto.png";
+import "./SobreMi.css";
+
+function SobreMi() {
+	return (
+		<div className="abmeContainer">
+			<div className="abmetextCont">
+				<p className="abmeText">chau</p>
+			</div>
+
+			<div className="photoCont">
+				<img className="abmePhoto" src={abmePhoto}></img>
+			</div>
+		</div>
+	);
+}
+
+export default SobreMi;

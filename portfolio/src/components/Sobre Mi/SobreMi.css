@@ -1,0 +1,42 @@
+@import url("https://fonts.google.com/specimen/Dela+Gothic+One/tester");
+
+.abmeContainer {
+	background-color: #28344c;
+	border-radius: 10px;
+	height: 800px;
+}
+
+.photoCont {
+	display: flex;
+	align-items: end;
+	justify-content: end;
+	position: relative;
+	right: 5cm;
+	bottom: 10.5cm;
+}
+
+.abmePhoto {
+	width: auto;
+	height: 600px;
+	transition: transform 0.3s;
+}
+
+.abmePhoto:hover {
+	transform: scale(1.3);
+}
+
+.abmeText {
+	font-family: "Dela Gothic One";
+	color: white;
+	display: flex;
+	justify-content: start;
+	align-items: starts;
+	text-align: start;
+	direction: ltl;
+	width: 50%;
+	font-size: 25px;
+	padding: 20px;
+	position: relative;
+	top: 4cm;
+	left: 2cm;
+}
