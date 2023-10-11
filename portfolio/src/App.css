@@ -16,11 +16,35 @@
 	color: #28344c;
 	text-decoration: solid;
 	font-style: italic;
+	margin: 0;
 }
 
 .abmetextSpan {
 	color: #89db82;
 	margin-left: 7px;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.proyectTitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Dela Gothic One";
+	font-size: 40px;
+	color: #28344c;
+	text-decoration: solid;
+	font-style: italic;
+	font-size: 50px;
+	position: relative;
+	bottom: 1.7cm;
+	height: 0;
+}
+
+.proyectSpan {
+	color: #89db82;
+	margin-left: 10px;
 	text-decoration: underline;
 	font-style: normal;
 }

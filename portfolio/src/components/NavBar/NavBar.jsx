@@ -26,7 +26,10 @@ function NavBar() {
 					</a>
 				</li>
 				<li className="item">
-					<a className="text" href="#proyectos">
+					<a
+						className="text"
+						href="https://forms.gle/XmUvGFtC269E25o56"
+						target="blank">
 						Contacto
 					</a>
 				</li>

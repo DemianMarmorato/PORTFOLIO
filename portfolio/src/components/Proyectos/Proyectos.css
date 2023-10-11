@@ -1,0 +1,50 @@
+@import url("https://fonts.google.com/specimen/Dela+Gothic+One/tester");
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+
+.cardCont {
+	background-color: #28344c;
+	height: 600px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card {
+	display: inline-block;
+	background-color: #89db82;
+	position: relative;
+	margin: 50px;
+	left: 1cm;
+	height: 500px;
+	width: 500px;
+	border-radius: 10px;
+	transition: transform 0.3s;
+	box-shadow: 0px 5px 25px black;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+
+.proyectImg {
+	border-radius: 10px;
+	height: 400px;
+	width: 100%;
+}
+
+.proyectDesc {
+	font-family: "Dela Gothic One";
+	color: #28344c;
+	margin: 5px;
+	position: relative;
+	bottom: 5px;
+	font-size: 20px;
+	text-align: center;
+	transition: color 0.3s;
+}
+
+.proyectDesc {
+}

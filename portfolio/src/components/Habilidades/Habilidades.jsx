@@ -12,12 +12,12 @@ function Habilidades() {
 		<div className="skillCont">
 			<div className="skillBackground">
 				<div>
-					<section id="skills">
-						<h1 className="skillTitle">
-							Manejo estas{" "}
-							<span className="skilltitleSpan">tecnologías.</span>
-						</h1>
-					</section>
+					<section id="skills"> </section>
+					<h1 className="skillTitle">
+						Manejo estas{" "}
+						<span className="skilltitleSpan">tecnologías.</span>
+					</h1>
+
 					<div className="cardContainer">
 						<div className="cards">
 							<img src={html} className="cardImage"></img>
