@@ -27,15 +27,17 @@ function Inicio() {
 			</div>
 			<div className="buttonCont">
 				<a href="https://github.com/DemianMarmorato" target="blank">
-					<img src={github} className="github"></img>
+					<img src={github} id="github" className="github"></img>
 				</a>
-				<a href=" mailto:marmorato.demian@gmail.com " target="blank">
-					<img src={gmail} className="mail"></img>
+				<a
+					href=" https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRqhsWrTswJPZNsczWqrmndhPJSnjQpnPXGgKWGnktJChZJKNDLsqLlqZWtSLrMNcMwRTqb "
+					target="blank">
+					<img src={gmail} id="gmail" className="mail"></img>
 				</a>
 				<a
 					href="https://www.linkedin.com/in/demian-alexander-marmorato-710436243"
 					target="blank">
-					<img src={linkedin} className="linkedin"></img>
+					<img src={linkedin} id="linkedin" className="linkedin"></img>
 				</a>
 			</div>
 		</div>

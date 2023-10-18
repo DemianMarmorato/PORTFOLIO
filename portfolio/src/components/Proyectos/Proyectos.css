@@ -5,7 +5,7 @@
 	padding: 0;
 }
 
-.cardCont {
+/* .cardCont {
 	background-color: #28344c;
 	height: 600px;
 	width: 100%;
@@ -33,7 +33,7 @@
 	border-radius: 10px;
 	height: 400px;
 	width: 100%;
-}
+} */
 
 .proyectDesc {
 	font-family: "Dela Gothic One";
@@ -41,10 +41,66 @@
 	margin: 5px;
 	position: relative;
 	bottom: 5px;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
-	transition: color 0.3s;
 }
 
-.proyectDesc {
+.proyectImg {
+	height: 300px;
+	width: 400px;
+	border-radius: 10px;
+	filter: drop-shadow(0px 5px 10px #28344c);
+}
+
+.cardCont {
+	background-color: #28344c;
+	border-radius: 10px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	place-items: center;
+}
+
+.card {
+	height: 450px;
+	width: 400px;
+	background-color: white;
+	border-radius: 10px;
+	transition: transform 0.3s, filter 0.3s;
+	background-color: lightgray;
+}
+
+.card:hover {
+	transform: scale(1.2);
+	filter: drop-shadow(0px 0px 25px #89db82);
+}
+
+.button {
+	padding: 15px;
+	position: relative;
+	margin-inline-end: 30px;
+	left: 38px;
+	font-family: "Dela Gothic One";
+	border-radius: 10px;
+	border: 0;
+	color: #28344c;
+	background-color: #89db82;
+	cursor: pointer;
+	transition: background-color 0.3s, filter 0.3s, color 0.3s;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #28344c;
+	color: #89db82;
+}
+
+a {
+	color: #28344c;
+	text-decoration: none;
+	transition: background-color 0.3s, filter 0.3s, color 0.3s;
+}
+
+a:hover {
+	color: #89db82;
 }

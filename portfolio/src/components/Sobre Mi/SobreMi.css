@@ -41,3 +41,20 @@
 	top: 4cm;
 	left: 2cm;
 }
+
+@media only screen and (max-width: 1600px) {
+	.abmePhoto {
+		position: relative;
+		left: 4cm;
+		bottom: 1cm;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.abmePhoto {
+		width: auto;
+		height: 400px;
+		position: relative;
+		top: 1cm;
+	}
+}

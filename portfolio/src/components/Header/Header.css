@@ -91,12 +91,29 @@
 	opacity: 100;
 }
 
-:hover .buttonCont img {
-	transition: transform 0.3s;
+#github {
+	transition: filter 0.3s, transform 0.3s;
 }
 
-.buttonCont img:hover {
+#github:hover {
+	filter: drop-shadow(0 0 20px #000000);
 	transform: scale(1.2);
-	filter: drop-shadow(0px 0px 20px #89db82);
-	border-radius: 20px;
+}
+
+#gmail {
+	transition: filter 0.3s, transform 0.3s;
+}
+
+#gmail:hover {
+	filter: drop-shadow(0 0 20px #fbc84d);
+	transform: scale(1.2);
+}
+
+#linkedin {
+	transition: filter 0.3s, transform 0.3s;
+}
+
+#linkedin:hover {
+	filter: drop-shadow(0 0 20px #0a88cf);
+	transform: scale(1.2);
 }
