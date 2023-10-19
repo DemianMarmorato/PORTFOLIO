@@ -4,6 +4,7 @@ import "./Header.css";
 import github from "./ImageButton/GITHUB.svg";
 import gmail from "./ImageButton/GMAIL.svg";
 import linkedin from "./ImageButton/LINKEDIN.svg";
+import cv from "./cv/CV Demian Marmorato.pdf";
 
 function Inicio() {
 	return (
@@ -11,6 +12,9 @@ function Inicio() {
 			<div className="logoContainer">
 				<img className="logoDem" src={logoDem}></img>
 			</div>
+			<a className="downloadcvAnchor" href={cv} download>
+				<button className="downloadCV">Descargar Curriculúm</button>
+			</a>
 			<h1 className="greetings">
 				Bienvenido, soy <span className="nameSpan"> Demian Marmorato!</span>
 			</h1>

@@ -40,13 +40,13 @@
 	width: auto;
 	height: 350px;
 	position: relative;
-	transition: transform 0.3s;
-	filter: drop-shadow(0px 5px 10px black);
+	transition: transform 0.3s, filter 0.3s;
 	bottom: 1cm;
 }
 
 .profilePic:hover {
 	transform: scale(1.1);
+	filter: drop-shadow(0px 0px 20px #89db82);
 }
 
 .imgContainer {
@@ -116,4 +116,38 @@
 #linkedin:hover {
 	filter: drop-shadow(0 0 20px #0a88cf);
 	transform: scale(1.2);
+}
+
+.downloadCV {
+	padding: 20px;
+	font-size: 20px;
+	position: relative;
+	margin-inline-end: 30px;
+	font-family: "Dela Gothic One";
+	border-radius: 10px;
+	border: 0;
+	left: 34cm;
+	top: 9.8cm;
+	color: #28344c;
+	background-color: #89db82;
+	transition: background-color 0.3s, filter 0.3s, color 0.3s, transform 0.3s;
+	text-align: center;
+	cursor: pointer;
+}
+
+.downloadCV:hover {
+	background-color: #28344c;
+	color: #89db82;
+	filter: drop-shadow(0 0 20px #89db82);
+	transform: scale(1.1);
+}
+
+.downloadcvAnchor {
+	color: #28344c;
+	text-decoration: none;
+	transition: background-color 0.3s, filter 0.3s, color 0.3s;
+}
+
+.downloadcvAnchor:hover {
+	color: #89db82;
 }

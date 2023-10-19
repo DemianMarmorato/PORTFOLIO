@@ -12,7 +12,7 @@ function NavBar() {
 				</li>
 				<li className="item">
 					<a className="text" href="#abme">
-						Sobre mi
+						Sobre mí
 					</a>
 				</li>
 				<li className="item">
